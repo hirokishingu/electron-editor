@@ -1,8 +1,8 @@
 window.addEventListener('DOMContentLoaded', () => {
-  var editor - CodeMirror.fromTextArea(
+  var editor = CodeMirror.fromTextArea(
     document.getElementById('textarea'),
     {
-      mode: "texxt/x-kotlin",
+      mode: "text/x-kotlin",
       linenumbers: true,
       indentUnit: 2
     }
